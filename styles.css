@@ -124,3 +124,10 @@ h2 {
   border-color: #e5e7eb;
   font-weight: 900;
 }
+
+.footer {
+  background-color: #1f2937;
+  padding: 40px;
+  color: #e5e7eb;
+  text-align: center;
+}
