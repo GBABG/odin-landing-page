@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
   min-height: 100vh;
@@ -7,18 +13,41 @@ body {
 
 .header {
   background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px;
 }
 
 h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin: 0;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
 }
 
 .links,
 .secondary {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .logo {
@@ -29,8 +58,12 @@ h1 {
 button {
   background-color: #3882f6;
   color: #f9faf8;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
 }
 
 img {
-  width: 500px;
+  width: 600px;
+  height: 300px;
 }
