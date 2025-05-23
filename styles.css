@@ -102,6 +102,14 @@ h2 {
   font-weight: light;
   color: #1f2937;
   max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-author {
+  align-self: end;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .fourth-section {
